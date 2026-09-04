@@ -7,6 +7,8 @@ test-ledger/
 .yarn/
 yarn-error.log
 *.log
+__pycache__/
+*.pyc
 
 # Keypairs — never commit
 *.json
@@ -16,5 +18,7 @@ yarn-error.log
 !Anchor.toml.example
 !mainnet-launch/token.config.json
 !mainnet-launch/metadata/*.json
+!router_abi.json
+!erc20_abi.json
 mainnet-launch/keys/
 mainnet-launch/*.keypair.json
